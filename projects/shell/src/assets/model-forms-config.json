@@ -1,0 +1,66 @@
+{
+  "key": "root",
+  "controlType": "group",
+  "label": "Flight",
+  "initialValue": "Flight Edit",
+  "valueType": [
+    {
+      "key": "id",
+      "controlType": "input",
+      "valueType": "number",
+      "label": "ID",
+      "placeholder": "ID",
+      "initialValue": 0
+    },
+    {
+      "key": "from",
+      "controlType": "input",
+      "valueType": "string",
+      "label": "From",
+      "placeholder": "From",
+      "initialValue": "Hamburg"
+    },
+    {
+      "key": "to",
+      "controlType": "input",
+      "valueType": "string",
+      "label": "To",
+      "placeholder": "To",
+      "initialValue": "Graz"
+    },
+    {
+      "key": "date",
+      "controlType": "input",
+      "valueType": "string",
+      "label": "Date",
+      "placeholder": "Date",
+      "initialValue": ""
+    },
+    {
+      "key": "addresses",
+      "controlType": "array",
+      "label": "Addresses",
+      "valueType": {
+        "key": "address",
+        "controlType": "group",
+        "label": "Address",
+        "valueType": [
+          {
+            "key": "street",
+            "controlType": "input",
+            "valueType": "string",
+            "label": "Street",
+            "placeholder": "Street"
+          },
+          {
+            "key": "number",
+            "controlType": "input",
+            "valueType": "number",
+            "label": "Number",
+            "placeholder": "Number"
+          }
+        ]
+      }
+    }
+  ]
+}
